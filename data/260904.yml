@@ -7,7 +7,7 @@ about:
   head: cf58112
   archived: false
   latestVersion: v12.13.0
-  collectedAt: 2026-09-04T19:54:51Z
+  collectedAt: 2026-09-04T20:44:54Z
 timeline:
   created: 2013-08-13
   lastCommit: 2026-02-16
@@ -86,6 +86,64 @@ total:
   openIssue: 93
   commit: 741
 ---
+path: /home/runner/.x-repo/github.com/tsenart/vegeta
+collectedAt: 2026-09-04T20:44:55Z
+loc:
+  Go:
+    code: 20110
+    comments: 610
+    blanks: 987
+    files: 45
+  Json:
+    code: 684
+    comments: 0
+    blanks: 0
+    files: 2
+  Pan:
+    code: 361
+    comments: 0
+    blanks: 59
+    files: 1
+  JavaScript:
+    code: 39
+    comments: 5
+    blanks: 9
+    files: 2
+  Python:
+    code: 39
+    comments: 9
+    blanks: 18
+    files: 1
+  Html:
+    code: 34
+    comments: 0
+    blanks: 2
+    files: 1
+  Makefile:
+    code: 13
+    comments: 0
+    blanks: 2
+    files: 1
+  Dockerfile:
+    code: 12
+    comments: 1
+    blanks: 8
+    files: 1
+  Css:
+    code: 1
+    comments: 0
+    blanks: 0
+    files: 1
+  Markdown:
+    code: 0
+    comments: 624
+    blanks: 217
+    files: 2
+total:
+  code: 22948
+  comments: 1252
+  blanks: 1384
+  files: 57
 ---
 date: "2026-08-24"
 repo:
