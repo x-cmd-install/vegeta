@@ -5,14 +5,14 @@ about:
   head: cf58112
   archived: false
   latestVersion: "v12.13.0"
-  collectedAt: 2026-09-07T05:39:37Z
+  collectedAt: 2026-09-07T18:53:39Z
 timeline:
   created: 2013-08-13
   lastCommit: 2026-02-16
   lastRelease: 2025-10-31
 popularity:
-  star: 25178
-  watcher: 306
+  star: 25179
+  watcher: 307
   fork: 1421
   release: 71
   contributor: 69
@@ -85,7 +85,7 @@ total:
   commit: 741
 ---
 path: /home/runner/.x-repo/github.com/tsenart/vegeta
-collectedAt: 2026-09-07T05:39:37Z
+collectedAt: 2026-09-07T18:53:40Z
 loc:
   Go:
     code: 20110
@@ -246,7 +246,7 @@ checks:
       - 'Warn: release artifact v12.11.1 does not have provenance: https://api.github.com/repos/tsenart/vegeta/releases/123300611'
 ---
 eget:
-  collectedAt: 2026-09-07T05:39:38+00:00
+  collectedAt: 2026-09-07T18:53:40+00:00
   platform:
     darwin/arm64:
       name:  vegeta_12.13.0_darwin_arm64.tar.gz
