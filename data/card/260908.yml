@@ -5,7 +5,7 @@ about:
   head: cf58112
   archived: false
   latestVersion: "v12.13.0"
-  collectedAt: 2026-09-08T03:05:58Z
+  collectedAt: 2026-09-08T05:28:23Z
 timeline:
   created: 2013-08-13
   lastCommit: 2026-02-16
@@ -85,7 +85,7 @@ total:
   commit: 741
 ---
 path: /home/runner/.x-repo/github.com/tsenart/vegeta
-collectedAt: 2026-09-08T03:05:59Z
+collectedAt: 2026-09-08T05:28:24Z
 loc:
   Go:
     code: 20110
