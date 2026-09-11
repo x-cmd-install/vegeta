@@ -48,7 +48,7 @@ x install vegeta
 
 ## 流行度
 
-- **Star**: 25,185 · **Fork**: 1,421 · **开放 issue**: 446 · **贡献者**: 69
+- **Star**: 25,187 · **Fork**: 1,421 · **开放 issue**: 446 · **贡献者**: 69
 
 ## 累计统计
 
@@ -87,18 +87,6 @@ x install vegeta
 | [vegeta_12.13.0_windows_amd64.zip](https://github.com/tsenart/vegeta/releases/download/v12.13.0/vegeta_12.13.0_windows_amd64.zip) | 4.3 MiB | `native/win/x64` |
 | [vegeta_12.13.0_windows_arm64.zip](https://github.com/tsenart/vegeta/releases/download/v12.13.0/vegeta_12.13.0_windows_arm64.zip) | 3.9 MiB | `native/win/arm64` |
 
-## 发行版状态
-
-在 [repology.org](https://repology.org/project/vegeta) 上共有 **24** 个发行版报告此项目。**15** 个 ✅ 已是最新上游版本，**6** 个 ⚠️ 使用旧版本。
-
-| 发行版 | 版本 | 状态 |
-|--------|------|------|
-| Arch | `12.13.0` | ✅ latest |
-| Homebrew | `12.13.0` | ✅ latest |
-| Nix unstable | `12.13.0` | ✅ latest |
-| Void | `12.13.0` | ✅ latest |
-| openSUSE Tumbleweed | `12.13.0` | ✅ latest |
-
 ## 改进这些数据
 
 vegeta 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 索引维护——这是一份由 x-cmd 在安装时读取的精选 YAML 包列表。如果 `vegeta` 缺失、过期，或安装行为有问题，欢迎在该 repo 提 issue 或 PR：
@@ -108,4 +96,4 @@ vegeta 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) �
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/260911.yml` · 2026-09-11T05:35:12Z._
+_数据快照: `data/card/260911.yml` · 2026-09-11T19:17:50Z._
