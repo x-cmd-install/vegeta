@@ -7,7 +7,7 @@ about:
   latestVersion: "v12.13.0"
   latestRelease: "v12.13.0"
   latestPrerelease: "v6.0.0-pre"
-  collectedAt: 2026-09-11T05:35:03Z
+  collectedAt: 2026-09-11T19:17:30Z
 timeline:
   created: 2013-08-13
   lastCommit: 2026-02-16
@@ -15,7 +15,7 @@ timeline:
   lastRelease: 2025-10-31
   lastPrerelease: 2015-11-17
 popularity:
-  star: 25185
+  star: 25187
   watcher: 307
   fork: 1421
   release: 71
@@ -89,7 +89,7 @@ total:
   commit: 741
 ---
 path: /home/runner/.x-repo/github.com/tsenart/vegeta
-collectedAt: 2026-09-11T05:35:05Z
+collectedAt: 2026-09-11T19:17:31Z
 loc:
   Go:
     code: 20110
