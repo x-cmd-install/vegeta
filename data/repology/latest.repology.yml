@@ -1,3 +1,33 @@
+- repo: parabola
+  subrepo: extra
+  srcname: vegeta
+  binname: vegeta
+  visiblename: vegeta
+  version: 12.13.0
+  origversion: 12.13.0-2
+  status: newest
+  summary: HTTP load testing tool
+  licenses:
+    - MIT
+- repo: scoop
+  subrepo: main
+  binname: vegeta
+  visiblename: vegeta
+  version: 12.13.0
+  origversion: null
+  status: newest
+  licenses:
+    - MIT
+- repo: termux
+  srcname: vegeta
+  binname: vegeta
+  visiblename: vegeta
+  version: 12.13.0
+  origversion: null
+  status: newest
+  summary: HTTP load testing tool
+  maintainers:
+    - termux@github
 - repo: arch
   subrepo: extra
   srcname: vegeta
@@ -237,36 +267,6 @@
     - MIT
   categories:
     - Unspecified
-- repo: parabola
-  subrepo: extra
-  srcname: vegeta
-  binname: vegeta
-  visiblename: vegeta
-  version: 12.13.0
-  origversion: 12.13.0-2
-  status: newest
-  summary: HTTP load testing tool
-  licenses:
-    - MIT
-- repo: scoop
-  subrepo: main
-  binname: vegeta
-  visiblename: vegeta
-  version: 12.13.0
-  origversion: null
-  status: newest
-  licenses:
-    - MIT
-- repo: termux
-  srcname: vegeta
-  binname: vegeta
-  visiblename: vegeta
-  version: 12.13.0
-  origversion: null
-  status: newest
-  summary: HTTP load testing tool
-  maintainers:
-    - termux@github
 - repo: void_x86_64
   subrepo: x86_64
   srcname: vegeta
