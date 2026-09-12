@@ -58,12 +58,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-12 | 0 | 0 | 1 | 0 | 0 | 0 |
-| last60d | 2026-07-13 | 0 | 0 | 2 | 0 | 0 | 0 |
-| 90d | 2026-06-13 | 0 | 0 | 2 | 0 | 0 | 0 |
-| last180d | 2026-03-15 | 0 | 0 | 5 | 0 | 6 | 0 |
-| 360d | 2025-09-16 | 1 | 0 | 13 | 0 | 13 | 4 |
-| last720d | 2024-09-21 | 1 | 0 | 21 | 0 | 22 | 4 |
+| 30d | 2026-08-13 | 0 | 0 | 1 | 0 | 0 | 0 |
+| last60d | 2026-07-14 | 0 | 0 | 2 | 0 | 0 | 0 |
+| 90d | 2026-06-14 | 0 | 0 | 2 | 0 | 0 | 0 |
+| last180d | 2026-03-16 | 0 | 0 | 5 | 0 | 6 | 0 |
+| 360d | 2025-09-17 | 1 | 0 | 13 | 0 | 13 | 4 |
+| last720d | 2024-09-22 | 1 | 0 | 21 | 0 | 22 | 4 |
 
 ## Release assets
 
@@ -87,6 +87,18 @@ Lowest-scoring checks:
 | [vegeta_12.13.0_windows_amd64.zip](https://github.com/tsenart/vegeta/releases/download/v12.13.0/vegeta_12.13.0_windows_amd64.zip) | 4.3 MiB | `native/win/x64` |
 | [vegeta_12.13.0_windows_arm64.zip](https://github.com/tsenart/vegeta/releases/download/v12.13.0/vegeta_12.13.0_windows_arm64.zip) | 3.9 MiB | `native/win/arm64` |
 
+## Distribution status
+
+Reported by **24** distros on [repology.org](https://repology.org/project/vegeta). **15** are ✅ on the latest upstream release, **6** are ⚠️ on an older version.
+
+| Distro | Version | Status |
+|--------|---------|--------|
+| Arch | `12.13.0` | ✅ latest |
+| Homebrew | `12.13.0` | ✅ latest |
+| Nix unstable | `12.13.0` | ✅ latest |
+| Void | `12.13.0` | ✅ latest |
+| openSUSE Tumbleweed | `12.13.0` | ✅ latest |
+
 ## Improve this data
 
 Install metadata for vegeta lives in the [x-cmd/install](https://github.com/x-cmd/install) index — a curated YAML package list that x-cmd consumes at install time. If `vegeta` is missing, out of date, or installs incorrectly, please open an issue or PR there:
@@ -96,4 +108,4 @@ Install metadata for vegeta lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260911.yml` · 2026-09-11T19:17:50Z._
+_Snapshot: `data/card/260912.yml` · 2026-09-12T05:25:17Z._
