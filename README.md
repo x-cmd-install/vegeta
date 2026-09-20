@@ -4,7 +4,7 @@
 
 HTTP load testing tool and library. It's over 9000!
 
-![vegeta](https://repo.x-cmd.io/vegeta.svg)
+[![x-cmd/install — vegeta Code Quality Monitoring Repo Card](https://repo.x-cmd.io/vegeta.svg)](https://x-cmd.com/install/vegeta)
 
 ## Install
 
@@ -48,22 +48,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 25,194 · **Forks**: 1,422 · **Open issues**: 446 · **Contributors**: 69
+- **Stars**: 25,200 · **Forks**: 1,421 · **Open issues**: 446 · **Contributors**: 69
 
 ## Totals (cumulative)
 
-- **Releases**: 71 · **Merged PRs**: 148 · **Open PRs**: 29 · **Closed issues**: 353 · **Open issues**: 93 · **Commits**: 741
+- **Releases**: 71 · **Merged PRs**: 148 · **Open PRs**: 30 · **Closed issues**: 353 · **Open issues**: 93 · **Commits**: 741
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-19 | 0 | 0 | 0 | 0 | 0 | 0 |
-| last60d | 2026-07-20 | 0 | 0 | 2 | 0 | 0 | 0 |
-| 90d | 2026-06-20 | 0 | 0 | 2 | 0 | 0 | 0 |
-| last180d | 2026-03-22 | 0 | 0 | 4 | 0 | 5 | 0 |
-| 360d | 2025-09-23 | 1 | 0 | 13 | 0 | 13 | 4 |
-| last720d | 2024-09-28 | 1 | 0 | 21 | 0 | 22 | 4 |
+| 30d | 2026-08-21 | 0 | 0 | 1 | 0 | 0 | 0 |
+| last60d | 2026-07-22 | 0 | 0 | 3 | 0 | 0 | 0 |
+| 90d | 2026-06-22 | 0 | 0 | 3 | 0 | 0 | 0 |
+| last180d | 2026-03-24 | 0 | 0 | 5 | 0 | 5 | 0 |
+| 360d | 2025-09-25 | 1 | 0 | 14 | 0 | 13 | 4 |
+| last720d | 2024-09-30 | 1 | 0 | 22 | 0 | 22 | 4 |
 
 ## Release assets
 
@@ -96,4 +96,4 @@ Install metadata for vegeta lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260918.yml` · 2026-09-18T05:49:34Z._
+_Snapshot: `data/card/260920.yml` · 2026-09-20T05:52:16Z._
