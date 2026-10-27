@@ -1,4 +1,15 @@
-- repo: parabola
+- repo: manjaro_unstable
+  subrepo: extra
+  srcname: vegeta
+  binname: vegeta
+  visiblename: vegeta
+  version: 12.13.0
+  origversion: 12.13.0-2
+  status: newest
+  summary: HTTP load testing tool
+  licenses:
+    - MIT
+- repo: arch
   subrepo: extra
   srcname: vegeta
   binname: vegeta
@@ -28,51 +39,6 @@
   origversion: null
   status: newest
   summary: HTTP load testing tool and library
-- repo: nix_unstable
-  srcname: vegeta
-  visiblename: vegeta
-  version: 12.13.0
-  origversion: null
-  status: newest
-  summary: Versatile HTTP load testing tool
-  maintainers:
-    - marek.mahut@gmail.com
-  licenses:
-    - MIT
-- repo: arch
-  subrepo: extra
-  srcname: vegeta
-  binname: vegeta
-  visiblename: vegeta
-  version: 12.13.0
-  origversion: 12.13.0-2
-  status: newest
-  summary: HTTP load testing tool
-  licenses:
-    - MIT
-- repo: openbsd
-  srcname: benchmarks/vegeta
-  binname: vegeta
-  visiblename: benchmarks/vegeta
-  version: 12.13.0
-  origversion: null
-  status: newest
-  summary: HTTP load testing tool and library
-  maintainers:
-    - ports@openbsd.org
-  categories:
-    - benchmarks
-- repo: openpkg_current
-  srcname: vegeta
-  visiblename: vegeta
-  version: 12.13.0.20251102
-  origversion: null
-  status: untrusted
-  summary: HTTP Load Testing Tool
-  licenses:
-    - MIT
-  categories:
-    - Networking
 - repo: liguros_stable
   srcname: app-benchmarks/vegeta
   visiblename: app-benchmarks/vegeta
@@ -166,17 +132,6 @@
   summary: HTTP load testing tool
   licenses:
     - MIT
-- repo: manjaro_unstable
-  subrepo: extra
-  srcname: vegeta
-  binname: vegeta
-  visiblename: vegeta
-  version: 12.13.0
-  origversion: 12.13.0-2
-  status: newest
-  summary: HTTP load testing tool
-  licenses:
-    - MIT
 - repo: nix_stable_24_05
   srcname: vegeta
   visiblename: vegeta
@@ -232,6 +187,40 @@
     - marek.mahut@gmail.com
   licenses:
     - MIT
+- repo: nix_unstable
+  srcname: vegeta
+  visiblename: vegeta
+  version: 12.13.0
+  origversion: null
+  status: newest
+  summary: Versatile HTTP load testing tool
+  maintainers:
+    - marek.mahut@gmail.com
+  licenses:
+    - MIT
+- repo: openbsd
+  srcname: benchmarks/vegeta
+  binname: vegeta
+  visiblename: benchmarks/vegeta
+  version: 12.13.0
+  origversion: null
+  status: newest
+  summary: HTTP load testing tool and library
+  maintainers:
+    - ports@openbsd.org
+  categories:
+    - benchmarks
+- repo: openpkg_current
+  srcname: vegeta
+  visiblename: vegeta
+  version: 12.13.0.20251102
+  origversion: null
+  status: untrusted
+  summary: HTTP Load Testing Tool
+  licenses:
+    - MIT
+  categories:
+    - Networking
 - repo: opensuse_tumbleweed
   subrepo: src-oss
   srcname: vegeta
@@ -248,6 +237,17 @@
     - MIT
   categories:
     - Unspecified
+- repo: parabola
+  subrepo: extra
+  srcname: vegeta
+  binname: vegeta
+  visiblename: vegeta
+  version: 12.13.0
+  origversion: 12.13.0-2
+  status: newest
+  summary: HTTP load testing tool
+  licenses:
+    - MIT
 - repo: scoop
   subrepo: main
   binname: vegeta
