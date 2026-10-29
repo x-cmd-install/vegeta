@@ -1,14 +1,3 @@
-- repo: manjaro_unstable
-  subrepo: extra
-  srcname: vegeta
-  binname: vegeta
-  visiblename: vegeta
-  version: 12.13.0
-  origversion: 12.13.0-2
-  status: newest
-  summary: HTTP load testing tool
-  licenses:
-    - MIT
 - repo: arch
   subrepo: extra
   srcname: vegeta
@@ -122,6 +111,17 @@
   licenses:
     - MIT
 - repo: manjaro_testing
+  subrepo: extra
+  srcname: vegeta
+  binname: vegeta
+  visiblename: vegeta
+  version: 12.13.0
+  origversion: 12.13.0-2
+  status: newest
+  summary: HTTP load testing tool
+  licenses:
+    - MIT
+- repo: manjaro_unstable
   subrepo: extra
   srcname: vegeta
   binname: vegeta
