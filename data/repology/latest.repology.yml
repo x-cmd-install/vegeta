@@ -1,36 +1,19 @@
-- repo: nix_stable_24_11
+- repo: opensuse_tumbleweed
+  subrepo: src-oss
   srcname: vegeta
+  binnames:
+    - vegeta
+    - vegeta-debuginfo
+    - vegeta-debugsource
   visiblename: vegeta
-  version: 12.12.0
-  origversion: null
-  status: outdated
-  summary: Versatile HTTP load testing tool
-  maintainers:
-    - marek.mahut@gmail.com
+  version: 12.13.0
+  origversion: 12.13.0-1.7
+  status: newest
+  summary: HTTP load testing tool and library
   licenses:
     - MIT
-- repo: nix_stable_25_05
-  srcname: vegeta
-  visiblename: vegeta
-  version: 12.12.0
-  origversion: null
-  status: outdated
-  summary: Versatile HTTP load testing tool
-  maintainers:
-    - marek.mahut@gmail.com
-  licenses:
-    - MIT
-- repo: nix_stable_24_05
-  srcname: vegeta
-  visiblename: vegeta
-  version: 12.11.1
-  origversion: null
-  status: outdated
-  summary: Versatile HTTP load testing tool
-  maintainers:
-    - marek.mahut@gmail.com
-  licenses:
-    - MIT
+  categories:
+    - Unspecified
 - repo: arch
   subrepo: extra
   srcname: vegeta
@@ -75,6 +58,17 @@
     - MIT
   categories:
     - app-benchmarks
+- repo: parabola
+  subrepo: extra
+  srcname: vegeta
+  binname: vegeta
+  visiblename: vegeta
+  version: 12.13.0
+  origversion: 12.13.0-2
+  status: newest
+  summary: HTTP load testing tool
+  licenses:
+    - MIT
 - repo: liguros_stable
   srcname: app-benchmarks/vegeta
   visiblename: app-benchmarks/vegeta
@@ -137,9 +131,9 @@
   srcname: vegeta
   binname: vegeta
   visiblename: vegeta
-  version: 12.13.0
-  origversion: 12.13.0-2
-  status: newest
+  version: 12.10.0
+  origversion: 12.10.0-1
+  status: outdated
   summary: HTTP load testing tool
   licenses:
     - MIT
@@ -148,9 +142,9 @@
   srcname: vegeta
   binname: vegeta
   visiblename: vegeta
-  version: 12.13.0
-  origversion: 12.13.0-2
-  status: newest
+  version: 12.10.0
+  origversion: 12.10.0-1
+  status: outdated
   summary: HTTP load testing tool
   licenses:
     - MIT
@@ -163,6 +157,39 @@
   origversion: 12.13.0-2
   status: newest
   summary: HTTP load testing tool
+  licenses:
+    - MIT
+- repo: nix_stable_24_05
+  srcname: vegeta
+  visiblename: vegeta
+  version: 12.11.1
+  origversion: null
+  status: outdated
+  summary: Versatile HTTP load testing tool
+  maintainers:
+    - marek.mahut@gmail.com
+  licenses:
+    - MIT
+- repo: nix_stable_24_11
+  srcname: vegeta
+  visiblename: vegeta
+  version: 12.12.0
+  origversion: null
+  status: outdated
+  summary: Versatile HTTP load testing tool
+  maintainers:
+    - marek.mahut@gmail.com
+  licenses:
+    - MIT
+- repo: nix_stable_25_05
+  srcname: vegeta
+  visiblename: vegeta
+  version: 12.12.0
+  origversion: null
+  status: outdated
+  summary: Versatile HTTP load testing tool
+  maintainers:
+    - marek.mahut@gmail.com
   licenses:
     - MIT
 - repo: nix_stable_25_11
@@ -221,33 +248,6 @@
     - MIT
   categories:
     - Networking
-- repo: opensuse_tumbleweed
-  subrepo: src-oss
-  srcname: vegeta
-  binnames:
-    - vegeta
-    - vegeta-debuginfo
-    - vegeta-debugsource
-  visiblename: vegeta
-  version: 12.13.0
-  origversion: 12.13.0-1.7
-  status: newest
-  summary: HTTP load testing tool and library
-  licenses:
-    - MIT
-  categories:
-    - Unspecified
-- repo: parabola
-  subrepo: extra
-  srcname: vegeta
-  binname: vegeta
-  visiblename: vegeta
-  version: 12.13.0
-  origversion: 12.13.0-2
-  status: newest
-  summary: HTTP load testing tool
-  licenses:
-    - MIT
 - repo: scoop
   subrepo: main
   binname: vegeta
