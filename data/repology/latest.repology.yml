@@ -1,19 +1,23 @@
-- repo: opensuse_tumbleweed
-  subrepo: src-oss
+- repo: parabola
+  subrepo: extra
   srcname: vegeta
-  binnames:
-    - vegeta
-    - vegeta-debuginfo
-    - vegeta-debugsource
+  binname: vegeta
   visiblename: vegeta
   version: 12.13.0
-  origversion: 12.13.0-1.7
+  origversion: 12.13.0-2
   status: newest
-  summary: HTTP load testing tool and library
+  summary: HTTP load testing tool
   licenses:
     - MIT
-  categories:
-    - Unspecified
+- repo: scoop
+  subrepo: main
+  binname: vegeta
+  visiblename: vegeta
+  version: 12.13.0
+  origversion: null
+  status: newest
+  licenses:
+    - MIT
 - repo: arch
   subrepo: extra
   srcname: vegeta
@@ -58,17 +62,6 @@
     - MIT
   categories:
     - app-benchmarks
-- repo: parabola
-  subrepo: extra
-  srcname: vegeta
-  binname: vegeta
-  visiblename: vegeta
-  version: 12.13.0
-  origversion: 12.13.0-2
-  status: newest
-  summary: HTTP load testing tool
-  licenses:
-    - MIT
 - repo: liguros_stable
   srcname: app-benchmarks/vegeta
   visiblename: app-benchmarks/vegeta
@@ -248,15 +241,22 @@
     - MIT
   categories:
     - Networking
-- repo: scoop
-  subrepo: main
-  binname: vegeta
+- repo: opensuse_tumbleweed
+  subrepo: src-oss
+  srcname: vegeta
+  binnames:
+    - vegeta
+    - vegeta-debuginfo
+    - vegeta-debugsource
   visiblename: vegeta
   version: 12.13.0
-  origversion: null
+  origversion: 12.13.0-1.7
   status: newest
+  summary: HTTP load testing tool and library
   licenses:
     - MIT
+  categories:
+    - Unspecified
 - repo: termux
   srcname: vegeta
   binname: vegeta
