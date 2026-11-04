@@ -1,4 +1,4 @@
-- repo: parabola
+- repo: manjaro_unstable
   subrepo: extra
   srcname: vegeta
   binname: vegeta
@@ -9,13 +9,15 @@
   summary: HTTP load testing tool
   licenses:
     - MIT
-- repo: scoop
-  subrepo: main
+- repo: manjaro_testing
+  subrepo: extra
+  srcname: vegeta
   binname: vegeta
   visiblename: vegeta
-  version: 12.13.0
-  origversion: null
-  status: newest
+  version: 12.10.0
+  origversion: 12.10.0-1
+  status: outdated
+  summary: HTTP load testing tool
   licenses:
     - MIT
 - repo: arch
@@ -130,28 +132,6 @@
   summary: HTTP load testing tool
   licenses:
     - MIT
-- repo: manjaro_testing
-  subrepo: extra
-  srcname: vegeta
-  binname: vegeta
-  visiblename: vegeta
-  version: 12.10.0
-  origversion: 12.10.0-1
-  status: outdated
-  summary: HTTP load testing tool
-  licenses:
-    - MIT
-- repo: manjaro_unstable
-  subrepo: extra
-  srcname: vegeta
-  binname: vegeta
-  visiblename: vegeta
-  version: 12.13.0
-  origversion: 12.13.0-2
-  status: newest
-  summary: HTTP load testing tool
-  licenses:
-    - MIT
 - repo: nix_stable_24_05
   srcname: vegeta
   visiblename: vegeta
@@ -257,6 +237,26 @@
     - MIT
   categories:
     - Unspecified
+- repo: parabola
+  subrepo: extra
+  srcname: vegeta
+  binname: vegeta
+  visiblename: vegeta
+  version: 12.13.0
+  origversion: 12.13.0-2
+  status: newest
+  summary: HTTP load testing tool
+  licenses:
+    - MIT
+- repo: scoop
+  subrepo: main
+  binname: vegeta
+  visiblename: vegeta
+  version: 12.13.0
+  origversion: null
+  status: newest
+  licenses:
+    - MIT
 - repo: termux
   srcname: vegeta
   binname: vegeta
