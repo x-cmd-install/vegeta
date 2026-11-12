@@ -1,12 +1,10 @@
-- repo: nix_stable_25_11
-  srcname: vegeta
+- repo: scoop
+  subrepo: main
+  binname: vegeta
   visiblename: vegeta
-  version: 12.12.0
+  version: 12.13.0
   origversion: null
-  status: outdated
-  summary: Versatile HTTP load testing tool
-  maintainers:
-    - marek.mahut@gmail.com
+  status: newest
   licenses:
     - MIT
 - repo: arch
@@ -25,7 +23,7 @@
   binname: vegeta
   visiblename: benchmarks/vegeta
   version: 12.12.0
-  origversion: 12.12.0_10
+  origversion: 12.12.0_11
   status: outdated
   summary: HTTP load testing tool and library
   maintainers:
@@ -176,6 +174,17 @@
     - marek.mahut@gmail.com
   licenses:
     - MIT
+- repo: nix_stable_25_11
+  srcname: vegeta
+  visiblename: vegeta
+  version: 12.12.0
+  origversion: null
+  status: outdated
+  summary: Versatile HTTP load testing tool
+  maintainers:
+    - marek.mahut@gmail.com
+  licenses:
+    - MIT
 - repo: nix_stable_26_05
   srcname: vegeta
   visiblename: vegeta
@@ -235,15 +244,6 @@
   origversion: 12.13.0-2
   status: newest
   summary: HTTP load testing tool
-  licenses:
-    - MIT
-- repo: scoop
-  subrepo: main
-  binname: vegeta
-  visiblename: vegeta
-  version: 12.13.0
-  origversion: null
-  status: newest
   licenses:
     - MIT
 - repo: termux
