@@ -48,22 +48,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 25,248 · **Forks**: 1,428 · **Open issues**: 447 · **Contributors**: 69
+- **Stars**: 25,248 · **Forks**: 1,428 · **Open issues**: 448 · **Contributors**: 69
 
 ## Totals (cumulative)
 
-- **Releases**: 71 · **Merged PRs**: 148 · **Open PRs**: 32 · **Closed issues**: 353 · **Open issues**: 94 · **Commits**: 741
+- **Releases**: 71 · **Merged PRs**: 148 · **Open PRs**: 33 · **Closed issues**: 353 · **Open issues**: 95 · **Commits**: 741
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-17 | 0 | 0 | 1 | 0 | 0 | 0 |
-| last60d | 2026-09-17 | 0 | 0 | 3 | 0 | 1 | 0 |
-| 90d | 2026-08-18 | 0 | 0 | 3 | 0 | 1 | 0 |
-| last180d | 2026-05-20 | 0 | 0 | 5 | 0 | 1 | 0 |
-| 360d | 2025-11-21 | 0 | 0 | 12 | 0 | 10 | 1 |
-| last720d | 2024-11-26 | 1 | 0 | 20 | 0 | 19 | 4 |
+| 30d | 2026-10-18 | 0 | 0 | 2 | 0 | 1 | 0 |
+| last60d | 2026-09-18 | 0 | 0 | 4 | 0 | 2 | 0 |
+| 90d | 2026-08-19 | 0 | 0 | 4 | 0 | 2 | 0 |
+| last180d | 2026-05-21 | 0 | 0 | 6 | 0 | 2 | 0 |
+| 360d | 2025-11-22 | 0 | 0 | 13 | 0 | 11 | 1 |
+| last720d | 2024-11-27 | 1 | 0 | 21 | 0 | 20 | 4 |
 
 ## Release assets
 
@@ -87,18 +87,6 @@ Lowest-scoring checks:
 | [vegeta_12.13.0_windows_amd64.zip](https://github.com/tsenart/vegeta/releases/download/v12.13.0/vegeta_12.13.0_windows_amd64.zip) | 4.3 MiB | `native/win/x64` |
 | [vegeta_12.13.0_windows_arm64.zip](https://github.com/tsenart/vegeta/releases/download/v12.13.0/vegeta_12.13.0_windows_arm64.zip) | 3.9 MiB | `native/win/arm64` |
 
-## Distribution status
-
-Reported by **23** distros on [repology.org](https://repology.org/project/vegeta). **15** are ✅ on the latest upstream release, **6** are ⚠️ on an older version.
-
-| Distro | Version | Status |
-|--------|---------|--------|
-| Arch | `12.13.0` | ✅ latest |
-| Homebrew | `12.13.0` | ✅ latest |
-| Nix unstable | `12.13.0` | ✅ latest |
-| Void | `12.13.0` | ✅ latest |
-| openSUSE Tumbleweed | `12.13.0` | ✅ latest |
-
 ## Improve this data
 
 Install metadata for vegeta lives in the [x-cmd/install](https://github.com/x-cmd/install) index — a curated YAML package list that x-cmd consumes at install time. If `vegeta` is missing, out of date, or installs incorrectly, please open an issue or PR there:
@@ -108,4 +96,4 @@ Install metadata for vegeta lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261116.yml` · 2026-11-16T07:43:49Z._
+_Snapshot: `data/card/261117.yml` · 2026-11-17T10:41:15Z._
