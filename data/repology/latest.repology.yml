@@ -1,12 +1,21 @@
-- repo: nix_stable_25_11
+- repo: homebrew
   srcname: vegeta
   visiblename: vegeta
-  version: 12.12.0
+  version: 12.13.0
   origversion: null
-  status: outdated
-  summary: Versatile HTTP load testing tool
+  status: newest
+  summary: HTTP load testing tool and library
+- repo: void_x86_64
+  subrepo: x86_64
+  srcname: vegeta
+  binname: vegeta
+  visiblename: vegeta
+  version: 12.13.0
+  origversion: 12.13.0_2
+  status: newest
+  summary: HTTP load testing tool
   maintainers:
-    - marek.mahut@gmail.com
+    - orphan@voidlinux.org
   licenses:
     - MIT
 - repo: arch
@@ -32,13 +41,6 @@
     - egypcio@freebsd.org
   categories:
     - benchmarks
-- repo: homebrew
-  srcname: vegeta
-  visiblename: vegeta
-  version: 12.13.0
-  origversion: null
-  status: newest
-  summary: HTTP load testing tool and library
 - repo: liguros_stable
   srcname: app-benchmarks/vegeta
   visiblename: app-benchmarks/vegeta
@@ -176,6 +178,17 @@
     - marek.mahut@gmail.com
   licenses:
     - MIT
+- repo: nix_stable_25_11
+  srcname: vegeta
+  visiblename: vegeta
+  version: 12.12.0
+  origversion: null
+  status: outdated
+  summary: Versatile HTTP load testing tool
+  maintainers:
+    - marek.mahut@gmail.com
+  licenses:
+    - MIT
 - repo: nix_stable_26_05
   srcname: vegeta
   visiblename: vegeta
@@ -256,16 +269,3 @@
   summary: HTTP load testing tool
   maintainers:
     - termux@github
-- repo: void_x86_64
-  subrepo: x86_64
-  srcname: vegeta
-  binname: vegeta
-  visiblename: vegeta
-  version: 12.13.0
-  origversion: 12.13.0_2
-  status: newest
-  summary: HTTP load testing tool
-  maintainers:
-    - orphan@voidlinux.org
-  licenses:
-    - MIT
