@@ -48,7 +48,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 25,260 · **Forks**: 1,430 · **Open issues**: 448 · **Contributors**: 70
+- **Stars**: 25,261 · **Forks**: 1,430 · **Open issues**: 448 · **Contributors**: 70
 
 ## Totals (cumulative)
 
@@ -58,12 +58,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-28 | 0 | 1 | 1 | 1 | 0 | 3 |
-| last60d | 2026-09-28 | 0 | 1 | 2 | 1 | 1 | 3 |
-| 90d | 2026-08-29 | 0 | 1 | 3 | 1 | 1 | 3 |
-| last180d | 2026-05-31 | 0 | 1 | 5 | 1 | 1 | 3 |
-| 360d | 2025-12-02 | 0 | 1 | 12 | 1 | 9 | 4 |
-| last720d | 2024-12-07 | 1 | 1 | 20 | 1 | 19 | 7 |
+| 30d | 2026-10-29 | 0 | 1 | 1 | 1 | 0 | 3 |
+| last60d | 2026-09-29 | 0 | 1 | 2 | 1 | 1 | 3 |
+| 90d | 2026-08-30 | 0 | 1 | 3 | 1 | 1 | 3 |
+| last180d | 2026-06-01 | 0 | 1 | 5 | 1 | 1 | 3 |
+| 360d | 2025-12-03 | 0 | 1 | 12 | 1 | 9 | 4 |
+| last720d | 2024-12-08 | 1 | 1 | 20 | 1 | 19 | 7 |
 
 ## Release assets
 
@@ -96,4 +96,4 @@ Install metadata for vegeta lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261127.yml` · 2026-11-27T09:45:05Z._
+_Snapshot: `data/card/261128.yml` · 2026-11-28T09:21:45Z._
